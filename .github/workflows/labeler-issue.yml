@@ -32,6 +32,6 @@ jobs:
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
           section: versions
-          block-list: |
-            None
+          # block-list: |
+          #   None
           token: ${{ secrets.GITHUB_TOKEN }}

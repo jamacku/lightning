@@ -4,16 +4,17 @@
 policy:
   - section:
     - id: ['versions']
+      block-list: []
       label:
         - name: "ver: 1.6.x"
-          keys: ['v1.6']
+          keys: ['v1.6.x']
         - name: "ver: 1.7.x"
-          keys: ['v1.7']
+          keys: ['v1.7.x']
         - name: "ver: 1.8.x"
-          keys: ['v1.8']
+          keys: ['v1.8.x']
         - name: "ver: 1.9.x"
-          keys: ['v1.9']
+          keys: ['v1.9.x']
         - name: "ver: 2.0.x"
-          keys: ['v2.0']
+          keys: ['v2.0.x']
         - name: "ver: 2.1.x"
           keys: ['master']
